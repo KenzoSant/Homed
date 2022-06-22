@@ -969,6 +969,7 @@ button {
 
   .nav__button{
     display: inline-block;
+    margin: 50px;
   }
 
   .active-link{
