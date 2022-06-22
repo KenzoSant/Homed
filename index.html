@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./asset/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./asset/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./asset/css/styles1.css">
+
+    <title>Responsive real state website - Bedimcode</title>
+</head>
+
+<body>
+    
+    <!--============== HEADER ==============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Homed<i class='bx bxs-home-alt-2'></i>
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt-2'></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link active-link">
+                            <i class='bx bx-building-house'></i>
+                            <span>Residências</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#value" class="nav__link active-link">
+                            <i class='bx bx-award'></i>
+                            <span>Valores</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link active-link">
+                            <i class='bx bx-phone'></i>
+                            <span>Contato</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <a href="#subscribe" class="button nav__button">
+                Inscreva-se
+            </a>
+        </nav>
+    </header>
+
+    <!--============== MAIN ==============-->
+    <main class="main">
+        <!--============== HOME ==============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Descubra <br> a Melhor <br> Propriedade
+                    </h1>
+
+                    <p class="home__description">
+                        Encontre uma variedade de propriedades que combinam com você com muita facilidade.
+                    </p>
+
+                    <form action="" class="home__search">
+                        <i class='bx bxs-map'></i>
+                        <input type="search" placeholder="Procure uma Localização..." class="home__search-input">
+                        <button class="button">Procurar</button>
+                    </form>
+
+                    <div class="home__value">
+                        <div>
+                            <h1 class="home__value-number">
+                                2K <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Clientes <br> Atuais
+                            </span>                           
+                        </div>
+                        <div>
+                            <h1 class="home__value-number">
+                                3k <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Opções <br> Residência
+                            </span>
+                        </div>
+                        <div>
+                            <h1 class="home__value-number">
+                                8k <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Contratos <br> Efetuados
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+                    <div class="home__img">
+                        <img src="./asset/img/cs-home.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== POPULAR ====================-->
+        <section class="popular section" id="popular">
+          <div class="container container__popular">
+              <span class="section__subtitle">Melhores Escolhas</span>
+              <h2 class="section__title">
+                Residências Populares<span>.</span>
+              </h2>
+
+              <div class="popular__container swiper">
+                  <div class="swiper-wrapper">
+
+                      <article class="popular__card swiper-slide">
+                        <img src="./asset/img/cs-lx2.jpg" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                          <h2 class="popular__price">
+                            <span>R$</span>5,000
+                          </h2>
+                          <h3 class="popular__title">
+                            Aluga-se
+                          </h3>
+                          <p class="popular__description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            accusantium quis blanditiis quaerat atque.
+                          </p>
+                        </div>
+                      </article>
+
+                      <article class="popular__card swiper-slide">
+                        <img src="./asset/img/cs-lx.jpg" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                          <h2 class="popular__price">
+                            <span>R$</span>800,000
+                          </h2>
+                          <h3 class="popular__title">
+                            Vende-se
+                          </h3>
+                          <p class="popular__description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            accusantium quis blanditiis quaerat atque.
+                          </p>
+                        </div>
+                      </article>
+
+                      <article class="popular__card swiper-slide">
+                        <img src="./asset/img/cs-md.jpg" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                          <h2 class="popular__price">
+                            <span>R$</span>3,000
+                          </h2>
+                          <h3 class="popular__title">
+                            Aluga-se
+                          </h3>
+                          <p class="popular__description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            accusantium quis blanditiis quaerat atque.
+                          </p>
+                        </div>
+                      </article>
+
+                      <article class="popular__card swiper-slide">
+                        <img src="./asset/img/cs-md2.jpg" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                          <h2 class="popular__price">
+                            <span>R$</span>400,000
+                          </h2>
+                          <h3 class="popular__title">
+                            Vende-se
+                          </h3>
+                          <p class="popular__description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            accusantium quis blanditiis quaerat atque.
+                          </p>
+                        </div>
+                      </article>
+
+                      <article class="popular__card swiper-slide">
+                        <img src="./asset/img/cs-sp.jpg" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                          <h2 class="popular__price">
+                            <span>R$</span>1,800
+                          </h2>
+                          <h3 class="popular__title">
+                            Aluga-se
+                          </h3>
+                          <p class="popular__description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            accusantium quis blanditiis quaerat atque.
+                          </p>
+                        </div>
+                      </article>
+
+                      <article class="popular__card swiper-slide">
+                        <img src="./asset/img/cs-sp2.jpg" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                          <h2 class="popular__price">
+                            <span>R$</span>1,500
+                          </h2>
+                          <h3 class="popular__title">
+                            Aluga-se
+                          </h3>
+                          <p class="popular__description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            accusantium quis blanditiis quaerat atque.
+                          </p>
+                        </div>
+                      </article>
+
+                  </div>
+
+                  <div class="swiper-button-next">
+                    <i class='bx bx-chevron-right'></i>
+                  </div>
+                  <div class="swiper-button-prev">
+                    <i class='bx bx-chevron-left'></i>
+                  </div>
+
+              </div>
+            
+          </div>
+        </section>
+
+        <!--============== VALUE ==============-->
+        <section class="value section" id="value">
+            <div class="value__container container grid">
+                <div class="value__images">
+                    <div class="value__orbe">
+
+                    </div>
+
+                    <div class="value__img">
+                        <img src="./asset/img/cs-value.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="value__content">
+                    <div class="value__data">
+                        <span class="section__subtitle">Nossos Valores</span>
+
+                        <h2 class="section__title">
+                            Valores Especiais Para Você<span>.</span>
+                        </h2>
+
+                        <p class="value__description">
+                            Acreditamos que um bom lugar para se viver pode tornar sua vida melhor.
+                            Estamos sempre prontos para ajudar, fornecendo o melhor serviço para você.
+                        </p>
+                    </div>
+                
+
+                    <div class="value__accordion">
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-shield-x value__accordion-icon'></i>
+
+                                <h3 class="value__accordion-title">
+                                    As melhores taxas de juros do mercado
+                                </h3>
+
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquam magni nesciunt adipisci libero ullam doloribus.
+                            </div>
+
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-x-square value__accordion-icon'></i>
+
+                                <h3 class="value__accordion-title">
+                                    Prevenção de preços instáveis
+                                </h3>
+
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquam magni nesciunt adipisci libero ullam doloribus.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-bar-chart-square value__accordion-icon'></i>
+
+                                <h3 class="value__accordion-title">
+                                    Melhores preços do mercado
+                                </h3>
+
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquam magni nesciunt adipisci libero ullam doloribus.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-check-square value__accordion-icon'></i>
+
+                                <h3 class="value__accordion-title">
+                                    Segurança do seus dados
+                                </h3>
+
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquam magni nesciunt adipisci libero ullam doloribus.
+                                </p>
+                            </div>
+
+                        </div>                   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--============== CONTACT ==============-->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__images">
+                    <div class="contact__orbe">
+
+                    </div>
+
+                    <div class="contact__img">
+                        <img src="./asset/img/cs-contact.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Contate-nos</span>
+
+                        <h2 class="section__title">
+                            Entre em Contato<span>.</span>
+                        </h2>
+
+                        <p class="contact__description">
+                            Com problemas para encontrar sua casa dos sonhos?
+                            Precisa de um guia na compra da sua primeira casa?
+                            ou precisa de uma consulta em questões residenciais?
+                            Contate-nos. 
+                        </p>
+                    </div>
+
+                    <div class="contact__card">
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-phone-call'></i>
+                                <div class="">
+                                    <h3 class="contact__card-title">
+                                        Ligue
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        (11) 0830-4572
+                                    </p>
+                                </div>
+                            </div>
+
+                            <a href="https://web.whatsapp.com/send?phone=" target="_blank">
+                                <button class="button contact__card-button">
+                                    Ligue Agora
+                                </button>
+                            </a>
+                        </div>
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxl-whatsapp' ></i>
+                                <div class="">
+                                    <h3 class="contact__card-title">
+                                        Mensagem
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        (11) 0830-4572 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <a href="https://web.whatsapp.com/send?phone=" target="_blank">
+                                <button class="button contact__card-button">
+                                  Enviar Agora
+                                </button>
+                            </a>
+                            
+                        </div>
+
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-envelope' ></i>
+                                <div class="">
+                                    <h3 class="contact__card-title">
+                                        Email
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        home@gmail.com
+                                    </p>
+                                </div>
+                            </div>
+
+                            <a href="mailto:" target="_blank">
+                                <button class="button contact__card-button">
+                                    Email Agora
+                                </button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--============== SUBSCRIBE ==============-->
+        <section class="subscribe section " id="subscribe">
+            <div class="subscribe__container container">
+                <h1 class="subscribe__title">
+                    Comece Com a Homed
+                </h1>
+                <p class="subscribe__description">
+                    Inscreva-se e encontre sua residência em breve e 
+                    com as melhores opções
+                </p>
+
+                <a href="#section" class="button subscribe__button">
+                    Inscreva-se
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="">
+                <a href="" class="footer__logo">
+                    Homed<i class='bx bxs-home-alt-2'></i>
+                </a>
+
+                <p class="footer__description">
+                    Nossa missão é fazer com que as pessoas<br>
+                    encontrem o melhor lugar para viver.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div class="">
+                    <h3 class="footer__title">
+                        Sobre
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Sobre Nós</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__link">Novos</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__link">Imóveis</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <h3 class="footer__title">
+                        Empresa
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Nosso Trabalho</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__link">Capital</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__link">Segurança</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <h3 class="footer__title">
+                        Suporte
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__link">Central de Suporte</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__link">Entre em Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <h3 class="footer__title">
+                        Siga-nos
+                    </h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" class="footer__social-link" target="_blank">
+                            <i class='bx bxl-facebook-square'></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" class="footer__social-link" target="_blank">
+                            <i class='bx bxl-instagram-alt' ></i>
+                        </a>
+
+                        <a href="https://www.pinterest.com/" class="footer__social-link" target="_blank">
+                            <i class='bx bxl-pinterest'></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; All rights reserved
+            </span>
+
+            <div class="footer__privacy">
+                <a href="">Termos e Contratos</a> <br>
+                <a href="">Politica de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--============== SCROLL UP ==============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevrons-up'></i>
+    </a> 
+
+    <!--========== JS ==========-->
+    <script src="./asset/js/main1.js"></script>
+
+    <!--========== SWIPER JS ==========-->
+    <script src="./asset/js/swiper-bundle.min.js"></script>
+
+    <!--========== SWIPER POPULAR ==========-->
+    <script>
+      var swiperPopular = new Swiper(".popular__container", {
+          spaceBetween: 32,
+          loop: 'true',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+
+          navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+          },
+      });
+    </script>
+
+</body>
+
+</html>
